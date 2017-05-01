@@ -9,5 +9,11 @@ var Clock = require('Clock');
 describe('Timer', () => {
   it('should exist', () => {
       expect(Clock).toExist;
+
+
+
+
+
+      
   });
 });
