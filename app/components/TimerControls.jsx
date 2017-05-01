@@ -15,7 +15,7 @@ var TimerControls = React.createClass({
     var renderStartStopButton = () => {
       if (countdownStatus === 'started') {
         return <button className="button primary" onClick={this.onStatusChange('stopped')}>Stop</button>
-      } else if (countdownStatus !== 'started') {
+      } else {
         return <button className="button primary" onClick={this.onStatusChange('started')}>Start</button>
       }
     }
