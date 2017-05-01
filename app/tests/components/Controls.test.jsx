@@ -21,7 +21,6 @@ describe('Controls', () => {
     });
   });
 
-
   describe('render', () => {
     it('should render start when paused', () => {
       var controls = TestUtils.renderIntoDocument(<Controls countdownStatus="paused"/>);
