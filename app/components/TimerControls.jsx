@@ -1,6 +1,6 @@
 var React = require('react');
 
-var Controls = React.createClass({
+var TimerControls = React.createClass({
   propTypes: {
     countdownStatus: React.PropTypes.string.isRequired,
     onStatusChange: React.PropTypes.func.isRequired
@@ -29,4 +29,4 @@ var Controls = React.createClass({
   }
 });
 
-module.exports = Controls;
+module.exports = TimerControls;
